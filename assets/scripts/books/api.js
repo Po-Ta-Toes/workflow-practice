@@ -1,10 +1,8 @@
 'use strict'
 
-const config = require('./../config')
-
 const getBooks = function () {
   return $.ajax({
-    url: config.apiUrl + '/books',
+    url: 'https://wdi-library-api.herokuapp.com/books',
     method: 'GET'
   })
 }
