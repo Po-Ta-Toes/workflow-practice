@@ -1,1 +1,26 @@
 @import '~bootstrap/scss/bootstrap';
+
+body {
+  background-color: grey;
+}
+
+button {
+  width: 30%;
+}
+
+header {
+  color: white;
+  font-family: monospace;
+}
+
+.background {
+  background-color: purple;
+  border: 10px solid black;
+  border-radius: 25%;
+  box-shadow: 10px 10px 10px 5px;
+  height: 85%;
+  margin: 10vh auto;
+  padding: 10%;
+  text-align: center;
+  width: 85%;
+}
